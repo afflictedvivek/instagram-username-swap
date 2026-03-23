@@ -10,14 +10,14 @@ import datetime
 
 
 # ===== CONFIG =====
-BOT_TOKEN = "<YOUR_BOT_TOKEN>"   # Replace with your bot token
-REQUIRED_CHANNEL = "@yourchannel" # Replace with your channel name
-ADMIN_IDS = {123456789}            # Replace with your admin Telegram user IDs
-ADMIN_DM_ID = 123456789            # Replace with your admin Telegram user ID
+BOT_TOKEN = "8454829688:AAEAjb4P4QL3u1xx5gp834ctusL0mTv1UuA"   # Replace with your bot token
+REQUIRED_CHANNEL = "@stuffgot" # Replace with your channel name
+ADMIN_IDS = {848838853}            # Replace with your admin Telegram user IDs
+ADMIN_DM_ID = 848838853            # Replace with your admin Telegram user ID
 DAILY_CAP = 2                      # successful swaps/day
 TZ = datetime.timezone(datetime.timedelta(hours=5, minutes=30))  # IST
-HELP_LINK = "https://yourhelplink.com" # Replace with your help link
-SIGNATURE = "\n\n— @yourbot"         # Replace with your bot signature
+HELP_LINK = "https://anotepad.com/notes/78crpdht" # Replace with your help link
+SIGNATURE = "\n\n— @stuffgot"         # Replace with your bot signature
 # ==================
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
